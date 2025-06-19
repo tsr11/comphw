@@ -1,1 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shekhar Website</title>
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <script>
+        function bUYWEB(){
+            prompt('Enter your credit card info')
+        }
 
+        function pressbtun(){
+            alert('This website is good for health')
+        }
+    </script>
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            background-color: #1A1A1A;
+            font-family: 'Poppins';
+            color: white;
+        }
+img{
+    margin-right: 2em;
+    border-radius: 50px;
+}
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color: #7952B3;
+            align-items: center;
+        }
+
+        .maintitle{
+            margin-left:1em;
+            user-select: none;
+        }
+
+        ul{
+            margin-right: 1em;
+            display: flex;
+            gap:2em;
+        }
+
+        a:hover{
+            cursor: pointer;
+            color: black;
+            text-decoration: underline;
+            transition: 0.5s ease-in;
+        }
+
+        .maindiv{
+            color: #fff;
+            text-align: center;
+            margin-top: 2em;
+        }
+        .aa{
+            margin-left: 1.5em;
+            margin-top: 2em;
+            color:#000;
+        }
+        .container{
+            display: flex;
+            justify-content: space-around;
+            flex-wrap:wrap;
+            margin-bottom: 3em;
+            
+        }
+
+        .nonmaindiv{
+            margin-left: 2em;
+            text-align: center;
+            background-color: rgba(255,255,255,0.05);
+            padding: 3.5em;
+            border-radius: 10px;
+            margin-top: 1em;
+            
+            
+        }
+
+        .ingo{
+            display: flex;
+            text-align: center;
+            color:#000;
+            background-color:#7952B3 ;
+            width: fit-content;
+            border-radius: 50px;
+            padding: 1em;
+            margin: auto;
+            margin-top: 200px;
+            
+        }
+
+        @media(max-width:650px){
+            nav{
+                flex-direction: column;
+            }
+
+            body{
+                flex-direction: column;
+            }
+        }
+
+        .btn{
+            
+            padding: 10px 30px;
+            background-color: #fff;
+        }
+
+        .dflt{
+            display: flex;
+            background-image: url(https://i.pinimg.com/736x/c5/1b/02/c51b0262b65c1764d74cd9af2683f696.jpg);
+            background-repeat: no-repeat;         
+            
+            height: 500px;
+            justify-content: space-around;
+            align-items: center;
+            background-size: cover;
+        }
+
+        .btun{
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #000;
+            user-select: none;
+            border-radius: 10px;
+            
+            border:2px solid white;
+        
+
+        }
+
+        .buywebsite{
+            margin-left: 43px;
+        }
+
+        .coolbutton{
+            margin-left: 250px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h2 class="maintitle">ShekharSite</h2>
+        <ul>
+            <a>Contact</a>
+            <a>Info</a>
+            <a>About us</a>
+            <a>Nothing</a>
+        </ul>
+    </nav>
+
+    <div class="maindiv">
+        <h1>Welcome to Shekhar Dahal's first website</h1>
+        <h3>This website was made via of HTML, CSS and JS</h3>
+    </div>
+<h1 class="aa">Features:</h1>
+    <container class="container">
+        
+        
+        <div class="nonmaindiv">
+            <h2>HTML CSS JS</h2>
+            <p>This website was made by using HTML, CSS and JS.</p>
+        </div>
+
+        <div class="nonmaindiv">
+            <h2>Responsive</h2>
+            <p>Adjusts to different devices(try it)</p>
+        </div>
+        <div class="nonmaindiv">
+            <h2>UI</h2>
+            <p>User Interface and User Experience is good.</p>
+        </div>
+        
+    </container>
+
+    <div class="dflt">
+        <btn class="buywebsite btun" onclick="bUYWEB()">Buy Website</btn>
+        <btn class="coolbutton btun" onclick="pressbtun()">Press Please</btn>
+    
+    </div>
+    <div class="ingo">
+    
+    <img src="https://imageio.forbes.com/specials-images/imageserve/5ed56d858b3c370006234c06/0x0.jpg?format=jpg&crop=654,654,x0,y43,safe&height=416&width=416&fit=bounds" height="200px" width="200px">
+    <thing><h2>More Information</h2>
+    <p>This website is being sold for NPR.idk</p>
+
+    <a class="btn">PURCHASE</a>
+    </thing>
+    
+    </div>
+</body>
+</html>
